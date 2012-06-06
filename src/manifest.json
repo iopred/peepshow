@@ -1,0 +1,16 @@
+{
+	"name": "Peepshow",
+	"version": "1.51",
+	"description": "Resize and popout a browser window to show a single element.",
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png",
+			   "128": "icon128.png" },
+	"background_page": "background.html",
+	"browser_action": {
+		"name": "Peep",
+		"default_icon": "icon19.png"
+	},
+	"permissions": [
+		"tabs", "http://*/*", "https://*/*"
+	]
+}
